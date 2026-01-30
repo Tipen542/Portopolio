@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Modern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOGIN -->
+    <div class="login" id="loginPage">
+        <div class="login-box">
+            <h2>Welcome Back 👋</h2>
+            <input type="text" placeholder="admin">
+            <input type="password" placeholder="123">
+            <button onclick="login()">Masuk</button>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div class="portfolio hidden" id="portfolioPage">
+        <nav>
+            <h1>MyPortfolio</h1>
+            <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+        </nav>
+
+        <section class="hero">
+            <div class="card">
+                <img src="gerard.jpg" alt="Foto Saya">
+                <h2>Stevan Gerard</h2>
+                <h4>12 TJKT 3</h4>
+                <p>
+                    Saya adalah siswa yang tertarik dengan dunia teknologi,
+                    desain modern, dan web development masa kini.
+                </p>
+                <button onclick="hubungi()">Hubungi Saya</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
