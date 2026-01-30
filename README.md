@@ -1,2 +1,0 @@
-# Portopolio
-Tugas pjj
